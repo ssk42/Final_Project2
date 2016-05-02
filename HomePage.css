@@ -1,0 +1,262 @@
+	body {
+	    background-image: url("images/palermo_market.jpg");
+		background-size: 100%;
+	    background-attachment:fixed;	   
+	    overflow-x: scroll;
+	}
+	#header{
+		
+		font-size: 225%;
+		font-family: 'Bad Script', cursive;
+    	font-weight: bold;
+		width:auto;
+		margin-left: auto ;
+ 		margin-right: auto ;
+		text-align: center;
+		color: white;
+		text-shadow:
+		   -1px -1px 0 #000,  
+		    1px -1px 0 #000,
+		    -1px 1px 0 #000,
+		     1px 1px 0 #000;
+			}
+	div.DivNav{
+	    background-image: url("images/Notebookpaper.jpg");
+	    margin: auto;
+	    width: 1076px;
+	    height: 30px;
+	    float: center;
+	    vertical-align: middle;
+		line-height: 30px; 
+	    text-transform: uppercase;
+	    text-align: center;	    
+    }
+
+     .Grocery_div{
+  	   	width:1076px;
+    	height: auto;
+		margin: 0 auto;
+    }
+
+     .left_div {
+     	position: relative;
+     	background-color:  #d9d9d9;
+      	float: left;
+    	width: 225px;
+
+
+    }
+  
+    .right_div{
+    	float: right;
+    	position: relative;
+    	padding: 5px;
+    	background-image: url("images/Notebookpaper.jpg");
+		background-repeat: repeat-y;
+		background-position: center; 
+		width: 746px;
+		margin-left: 90px;
+    }
+    #Grocery_Navbar {
+    	background-color: #f1f1f1;
+
+    }
+  
+    #Grocery_Navbar ul {
+	    list-style-type: none;
+	    margin: auto;
+	    width: 225px;
+	    position: fixed;
+	    overflow: auto;
+	}  
+	#Grocery_Navbar li a {
+	    display: block;
+	    color: #000;
+	    padding: 8px 0 8px 16px;
+	    text-decoration: none;
+	    width: 150px;
+	}  
+	    
+            
+	#Nav_Bar li a,  #Grocery_Navbar li a {
+   			color:#000099;
+   			padding-top: 5px;
+   			font-family: 'Cutive', serif;
+   			font-size: 10pt;
+
+    }
+                          
+	#Nav_Bar li , #Grocery_Navbar li {
+		    display: inline;
+		    margin-right: 5em;
+		    color: white;
+		    padding-top: 5px;
+
+
+    }
+    #Grocery_Navbar li a:hover:not(.active){
+    	background-color: #555;
+    }
+	#Nav_Bar li a:hover:not(.active){
+    		background-color: white;
+    }
+	#Nav_Bar.active, #Grocery_Navbar.active{
+   			background-color:  #000099;
+    }
+	#Nav_Bar a:visited, #Grocery_Navbar a:visited{
+    		color: #8080ff;
+    }
+    .body_div{
+    	background-image: url("images/Notebookpaper.jpg");
+		background-repeat: repeat-y;
+		background-position: center; 
+		position: relative;	
+    }
+    .shippingmap{
+    	position: relative;
+		margin: auto;
+ 		width: 790px;
+    }
+    .shippingmap img{
+   		padding-left: 40px;
+		padding-right: 20px;
+    }
+  
+	.body_div .innerdiv {
+		position: relative;
+		width:790px;
+		margin: auto;
+	}
+	
+	.body_div .innerdiv h2,h3 {
+		padding-left: 20px;
+		padding-right: 20px;
+		font-weight: bold;
+		text-align: center;
+		font-family: 'Cutive', serif;
+		
+	}
+	.body_div .innerdiv p {
+		padding-left:45px;
+		padding-right:45px;
+		padding-top:5px;
+		padding-bottom: 5px;
+		font-family: 'Cutive', serif;
+		
+	}
+	.innerproductsdiv p{
+		text-align: center;
+		line-height: 5px;
+
+	}
+	.innerproductsdiv img{
+		width: 250px;
+	}
+	.innerproductsdiv .Add_to_Cart{
+		background-color: #8080ff; 
+		cursor: hand;
+	    color:white;
+	    padding: 5px 25px;
+	    text-align: center;
+		width: 250px;
+	}
+	.innerproductsdiv .Add_to_Cart:hover {
+    background-color: gray;
+    color: white;
+	}
+
+	.innerproductsdiv p.origin{
+		font-family: 'Cutive', serif;
+		font-size: 10px ;
+		font-style: italic;
+		
+	}
+	.innerproductsdiv p.name{
+		font-size: 15px ;
+		font-style: italic;
+		font-weight: bold;
+		font-family: 'Cutive', serif;
+	}
+	.innerproductsdiv p.Price{
+		font-size: 15px ;
+		font-weight: bold;
+		font-family: 'Cutive', serif;
+	}
+	.innerproductsdiv p.note{
+		font-size: 10px ;
+		font-style: italic;
+		font-family: 'Cutive', serif;
+	}
+	table,td{
+		 padding-left: 15px;	
+		
+	}
+	 tr  {
+	    padding: 15px;
+	}
+
+
+	#hidden_veggies,#hidden_frozen_veggie_fruits,
+	#hidden_meats,#hidden_cans,
+	#hidden_dessert,#hidden_Dairy{
+		display: block;
+	}
+	#hidden_fruits,#hidden_frozen_entrees,
+	#hidden_seafood, #hidden_spices,
+	#hidden_meals, #hidden_Eggs{
+		display: none;
+	}
+	#hidden_herbs,#hidden_ice_cream,
+	#hidden_cereal,#hidden_fruit_veggie{
+		display: none;
+	}
+	.Grocery_buttons{
+		background-image: url("images/Notebookpaper.jpg");
+		position: relative;
+		margin-left: 320px;
+ 		width: 756px;
+	}
+
+	#See_Veggies, #See_Fruit, #See_Herbs,
+	#See_Meats,#See_Seafood,
+	#See_Cans,#See_Cereal,#See_Spices,
+	#See_Frozen_Desserts,#See_Frozen_Meals,
+	#See_Frozen_FV,#See_Dairy,
+	#See_Eggs{
+		background-color: Transparent; 
+	    border-color: #8080ff;
+	    color:#000099;
+	    padding: 5px 25px;
+	    text-align: center;
+	    text-decoration: none;
+	    display: inline-block;
+	    font-size: 16px;
+	    margin: 4px 2px;
+	    cursor: pointer;
+
+	}
+	#footer {
+		position: relative;
+		color: white;
+		margin: auto;
+ 		text-align: center;
+ 		width: 790px;
+ 		padding-top: 15px;
+
+	}
+	#footer span{
+	background-color: gray;
+	}
+	#grocery_footer{
+		position: relative;
+		color: white;
+		margin: auto;
+ 		text-align: center;
+ 		width: 756px;
+ 		margin-left: 320px;
+ 		padding-top: 15px;
+	}
+	#grocery_footer span{
+    background-color: gray;
+	}
+
